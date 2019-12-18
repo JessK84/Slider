@@ -20,9 +20,7 @@ h1 {
  
 }
 .box-one,
-.box-two,
-.box-three,
-.box-four {
+.box {
     height: 25px;
     width: 25px;
     border-radius: 50px;
@@ -31,7 +29,6 @@ h1 {
     list-style: none;
     cursor: pointer;
 }
-
 
 .img-one {
     width: 700px;
@@ -43,9 +40,7 @@ h1 {
     margin-top: 85px;
 }
 
-.img-two,
-.img-three,
-.img-four {
+.img-two {
     width: 700px;
     height: 500px;
     position: absolute;
@@ -56,28 +51,13 @@ h1 {
     margin-top: 85px;
 }
 
-.box-one:hover .img-one {
+.box-one:hover .img-one,
+.box:hover .img-two {
     background-color: rgb(197, 193, 193);
     display: block;
 }
 
-.box-two:hover .img-two {
-    background-color: rgb(197, 193, 193);
-    display: block;
-}
-
-.box-three:hover .img-three {
-    background-color: rgb(197, 193, 193);
-    display: block;
-}
-
-.box-four:hover .img-four {
-    background-color: rgb(197, 193, 193);
-    display: block;
-}
 .box-one:hover,
-.box-two:hover,
-.box-three:hover,
-.box-four:hover {
+.box:hover {
     background-color: #a5a1a1;
 }
